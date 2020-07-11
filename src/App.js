@@ -12,6 +12,8 @@ function App() {
         </p>
         <p>
           We have so much to learn
+          <br/>
+          Let's get started
         </p>
       </header>
     </div>
