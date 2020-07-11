@@ -34,4 +34,4 @@ jobs:
       run: npm install --global surge
       
     - name: Deploy React App
-      run: surge ./src reactappdemobyhaseebahmed.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./public reactappdemobyhaseebahmed.surge.sh --token ${{secrets.SURGE_TOKEN}}
